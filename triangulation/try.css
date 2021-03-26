@@ -1,0 +1,50 @@
+/* body{
+    background-color: aqua;
+} */
+/* canvas {     
+    border: 1px solid black;
+    border-radius: 0px;
+    position: absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    margin:auto;
+} */
+h1{
+    text-align: center;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display:flex;
+    justify-content:space-between;
+}
+canvas {     
+    border: 1px solid black;
+    border-radius: 0px;
+    /* width:60%; */
+    /* height:50%; */
+    /* flex-basis:75%; */
+
+}
+span{
+    margin:auto;
+    font-size:x-large
+    /* width:300px; */
+}
+button{
+    align-self:center;
+    /* margin:auto;  */
+    /* width:20%; */
+    /* flex-basis:10%; */
+    /* flex:4; */
+    /* justify-content:space-evenly;
+}
+.point{
+    height: 10px;
+    width: 10px;
+    background-color:blueviolet;
+}
